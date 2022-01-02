@@ -47,7 +47,8 @@
 			referrerpolicy="no-referrer"
 		></script>
 		<script>
-			const socket = io("http://localhost:3000");
+			//const socket = io("http://localhost:3000"); // trabajando local
+			const socket = io("https://prueba-heroku-git.herokuapp.com/");
 
 			const formulario = document.querySelector("#miFormulario");
 			const messages = document.querySelector("#myMessages");
